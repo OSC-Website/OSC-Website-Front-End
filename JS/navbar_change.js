@@ -8,7 +8,7 @@ $(document).ready(function () {
       scroll_start = $(this).scrollTop();
 
       if (scroll_start > offset.top) {
-        $(".navbar-default").css("background-color", "#2E8B57");
+        $(".navbar-default").css("background-color", "#1a6233");
         $(".navbar-default").css(
           "box-shadow",
           "0px 1px 10px 0 rgb(0 0 0 / 70%), 0 6px 40px 0 rgb(0 0 0 / 19%)"

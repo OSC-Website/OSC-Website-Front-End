@@ -116,7 +116,7 @@ header .navbar-default div a:hover {
 
 header .navbar-default img {
   animation: 3s Fade-In ease-in-out;
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
 
 /* ---- TITLE HEADER ---- */
@@ -135,6 +135,7 @@ header .navbar-default img {
   font-size: 4rem;
   margin-left: 7rem;
   color: var(--White);
+  margin-bottom: 3.5rem;
   animation: 5s Fast__Left ease-in-out;
 }
 
@@ -172,7 +173,7 @@ header .navbar-default img {
 
 .flexSplashTitle img {
   border-radius: 50%;
-  height: 310px;
+  height: 370px;
   margin-right: 8rem;
   animation: 5s I-AM-IN-SPAIN-WITHOUT-THE-A__SO-YOURE-IN-SPIN__WAIT ease-in-out;
 }
