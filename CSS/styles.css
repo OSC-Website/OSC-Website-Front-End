@@ -115,12 +115,12 @@ header .navbar-default div a:hover {
 }
 
 header .navbar-default img {
-  animation: 3s Fade-In ease-in-out;
+  animation: 1s Fade-In ease-in-out;
   margin-right: 3rem;
 }
 
 header .navbar-default div .fa-bars {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: white;
   display: none;
 }
@@ -263,6 +263,7 @@ header .navbar-default div .fa-bars {
 .EVC__Card-OuterHolder {
   margin: 1rem 2rem 1rem 2rem;
   width: 20%;
+  flex-wrap: wrap;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -523,11 +524,77 @@ ul {
 }
 
 /* ---- RESPONSIVE DESIGN ---- */
+@media only screen and (max-width: 1200px) {
+  .EVC__Our-Team h2 {
+    top: 65rem;
+  }
+}
+
 @media only screen and (max-width: 950px) {
   /* -- Menu mobile -- */
-  .fa-bars {
+  header .navbar-default div .fa-bars {
     display: block;
-    font-size: 100rem;
-    color: rebeccapurple;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+  }
+
+  header .navbar-default > div a {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1095px) {
+  .flexSplashTitle h1 {
+    margin-left: 4rem;
+  }
+
+  .flexSplashTitle img {
+    margin-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 996px) {
+  .flexSplashTitle h1::after {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1015px) {
+  .flexSplashTitle h1 {
+    margin-bottom: 6rem;
+    font-size: 3rem;
+  }
+
+  .flexSplashTitle img {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .flexSplashTitle img {
+    display: none;
+  }
+
+  .flexSplashTitle h1 {
+    margin-top: 2rem;
+    font-size: 3rem;
+    margin-left: 0px;
+  }
+
+  .flexSplashTitle {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 674px) {
+  .Header__SVG {
+    width: 130vw;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .Header__SVG {
+    width: 200vw;
   }
 }
