@@ -119,6 +119,12 @@ header .navbar-default img {
   margin-right: 3rem;
 }
 
+header .navbar-default div .fa-bars {
+  font-size: 1rem;
+  color: white;
+  display: none;
+}
+
 /* ---- TITLE HEADER ---- */
 .flexSplashTitle {
   display: flex;
@@ -514,4 +520,14 @@ ul {
 .footer-col .social-links a:hover {
   color: var(--LightGreen);
   background-color: var(--orange);
+}
+
+/* ---- RESPONSIVE DESIGN ---- */
+@media only screen and (max-width: 950px) {
+  /* -- Menu mobile -- */
+  .fa-bars {
+    display: block;
+    font-size: 100rem;
+    color: rebeccapurple;
+  }
 }
