@@ -47,6 +47,14 @@ if it's not present, don't show loader */
   background: url("../Images/vest_logo_dribbble.gif") center no-repeat #fff;
 }
 
+#changeNav {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 353px;
+  z-index: 1;
+}
+
 /* ---- HEADER ---- */
 .Header__SVG {
   width: 100vw;
@@ -543,6 +551,18 @@ ul {
   }
 }
 
+@media only screen and (max-width: 1187px) {
+  .EVC__Card-OuterHolder {
+    width: 240px;
+  }
+}
+
+@media only screen and (min-width: 1187px) {
+  .EVC__Card-OuterHolder {
+    width: 240px;
+  }
+}
+
 @media only screen and (max-width: 1095px) {
   .flexSplashTitle h1 {
     margin-left: 4rem;
@@ -567,6 +587,35 @@ ul {
 
   .flexSplashTitle img {
     height: 300px;
+  }
+}
+
+@media only screen and (max-width: 984px) {
+  .EVC__Flex {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 943px) {
+  .EVC__Flex {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .EVC__Flex-Right {
+    text-align: center;
+    width: 100%;
+  }
+
+  .EVC__Flex-Left {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 881px) {
+  #changeNav {
+    top: 500px;
   }
 }
 
