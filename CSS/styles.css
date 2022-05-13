@@ -238,7 +238,8 @@ header .navbar-default div .fa-bars {
   border-radius: 50%;
   height: 370px;
   margin-right: 8rem;
-  animation: 5s I-AM-IN-SPAIN-WITHOUT-THE-A__SO-YOURE-IN-SPIN__WAIT ease-in-out;
+  animation: 2.1s I-AM-IN-SPAIN-WITHOUT-THE-A__SO-YOURE-IN-SPIN__WAIT
+    ease-in-out;
 }
 
 @keyframes I-AM-IN-SPAIN-WITHOUT-THE-A__SO-YOURE-IN-SPIN__WAIT {
@@ -702,15 +703,69 @@ ul {
   }
 }
 
+@media only screen and (max-width: 1085px) {
+  .ECV__Form-SVG__Top {
+    top: 165.1rem;
+  }
+}
+
+@media only screen and (max-width: 1064px) {
+  .ECV__Form-SVG__Top {
+    top: 164.3rem;
+  }
+}
+
+@media only screen and (max-width: 1043px) {
+  .ECV__Form-SVG__Top {
+    top: 163.2rem;
+  }
+}
+
+@media only screen and (max-width: 1033px) {
+  .ECV__Form-SVG__Top {
+    top: 164.2rem;
+  }
+}
+
+@media only screen and (max-width: 1009px) {
+  .ECV__Form-SVG__Top {
+    top: 163.4rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .ECV__Form-SVG__Top {
+    top: 162.4rem;
+  }
+}
+
 @media only screen and (max-width: 998px) {
   .EVC__Our-Team h2 {
     top: 59.2rem;
   }
 }
 
+@media only screen and (max-width: 984px) {
+  .ECV__Form-SVG__Top {
+    top: 161rem;
+  }
+}
+
+@media only screen and (max-width: 972px) {
+  .ECV__Form-SVG__Top {
+    top: 192rem;
+  }
+}
+
 @media only screen and (max-width: 970px) {
   .EVC__Our-Team h2 {
     top: 56.8rem;
+  }
+}
+
+@media only screen and (max-width: 966px) {
+  .ECV__Form-SVG__Top {
+    top: 191.1rem;
   }
 }
 
@@ -740,6 +795,187 @@ ul {
 
   .EVC__Flex-Left {
     width: 100%;
+  }
+
+  .ECV__Form-SVG__Top {
+    top: 194rem;
+  }
+
+  form {
+    margin-top: 12.1rem;
+  }
+}
+
+@media only screen and (max-width: 922px) {
+  .ECV__Form-SVG__Top {
+    top: 193.05rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .ECV__Form-SVG__Top {
+    top: 192.1rem;
+  }
+}
+
+@media only screen and (max-width: 886px) {
+  .ECV__Form-SVG__Top {
+    top: 193rem;
+  }
+}
+
+@media only screen and (max-width: 872px) {
+  .ECV__Form-SVG__Top {
+    top: 192.2rem;
+  }
+}
+
+@media only screen and (max-width: 855px) {
+  .ECV__Form-SVG__Top {
+    top: 191.4rem;
+  }
+}
+@media only screen and (max-width: 833px) {
+  .ECV__Form-SVG__Top {
+    top: 190.5rem;
+  }
+}
+
+@media only screen and (max-width: 811px) {
+  .ECV__Form-SVG__Top {
+    top: 189.35rem;
+  }
+}
+
+@media only screen and (max-width: 788px) {
+  .ECV__Form-SVG__Top {
+    top: 188rem;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  .ECV__Form-SVG__Top {
+    top: 189.2rem;
+  }
+}
+
+@media only screen and (max-width: 755px) {
+  .ECV__Form-SVG__Top {
+    top: 188.2rem;
+  }
+}
+
+@media only screen and (max-width: 733px) {
+  .ECV__Form-SVG__Top {
+    top: 187.2rem;
+  }
+}
+
+@media only screen and (max-width: 709px) {
+  .ECV__Form-SVG__Top {
+    top: 186.1rem;
+  }
+}
+
+@media only screen and (max-width: 688px) {
+  .ECV__Form-SVG__Top {
+    top: 185.1rem;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .ECV__Form-SVG__Top {
+    top: 191rem;
+  }
+}
+
+@media only screen and (max-width: 648px) {
+  .ECV__Form-SVG__Top {
+    top: 253.2rem;
+  }
+}
+
+@media only screen and (max-width: 627px) {
+  .ECV__Form-SVG__Top {
+    top: 252.2rem;
+  }
+}
+
+@media only screen and (max-width: 583px) {
+  .ECV__Form-SVG__Top {
+    top: 250.2rem;
+  }
+}
+
+@media only screen and (max-width: 556px) {
+  .ECV__Form-SVG__Top {
+    top: 250.9rem;
+  }
+}
+
+@media only screen and (max-width: 534px) {
+  .ECV__Form-SVG__Top {
+    top: 249.79rem;
+  }
+}
+
+@media only screen and (max-width: 511px) {
+  .ECV__Form-SVG__Top {
+    top: 259.6rem;
+  }
+}
+
+@media only screen and (max-width: 495px) {
+  .ECV__Form-SVG__Top {
+    top: 258.4rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .ECV__Form-SVG__Top {
+    top: 256.5rem;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .ECV__Form-SVG__Top {
+    top: 257.1rem;
+  }
+}
+
+@media only screen and (max-width: 451px) {
+  .ECV__Form-SVG__Top {
+    top: 257.79rem;
+  }
+}
+
+@media only screen and (max-width: 437px) {
+  .ECV__Form-SVG__Top {
+    top: 256.69rem;
+  }
+}
+
+@media only screen and (max-width: 436px) {
+  .ECV__Form-SVG__Top {
+    top: 258rem;
+  }
+}
+
+@media only screen and (max-width: 422px) {
+  .ECV__Form-SVG__Top {
+    top: 257rem;
+  }
+}
+
+@media only screen and (max-width: 419px) {
+  .ECV__Form-SVG__Top {
+    top: 261.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .ECV__Form-SVG__Top {
+    top: 260.3rem;
   }
 }
 
@@ -820,6 +1056,7 @@ ul {
     margin-bottom: 30px;
   }
 }
+
 @media (max-width: 574px) {
   .footer-col {
     width: 100%;
