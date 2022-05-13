@@ -61,7 +61,7 @@
           <a href="Pages/Events.html">Upcoming Events</a>
           <a href="Pages/About.html">About</a>
           <a href="#sign-up">Sign Up!</a>
-          <i class="fas fa-bars"></i>
+          <i onclick="openNav()" class="fas fa-bars"></i>
         </div>
 
         <a href="#">
@@ -71,6 +71,28 @@
           />
         </a>
       </nav>
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a
+          onclick="closeNav()"
+          target="_blank"
+          href="https://github.com/Dhruv-Rayat1?tab=repositories"
+          >Code</a
+        >
+        <a
+          onclick="closeNav()"
+          target="_blank"
+          href="https://dhruv-rayat.itch.io/"
+          >Games</a
+        >
+        <a onclick="closeNav()" href="#ongoing_projects">Ongoing Projects</a>
+        <a onclick="closeNav()" href="#quotes">Quotes</a>
+        <a onclick="closeNav()" href="#timeline">TimeLine</a>
+        <a onclick="closeNav()" href="#footer">Contact</a>
+      </div>
     </header>
 
     <!-- MAIN -->
@@ -431,6 +453,7 @@
     <script src="JS/Post.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="JS/Fetch.js"></script>
+    <script src="JS/Mobile.js"></script>
 
     <!-- AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
