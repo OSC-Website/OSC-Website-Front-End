@@ -199,7 +199,7 @@ header .navbar-default div .fa-bars {
   margin-left: 7rem;
   color: var(--White);
   margin-bottom: 3.5rem;
-  animation: 5s Fast__Left ease-in-out;
+  animation: 2s Fast__Left ease-in-out;
 }
 
 @keyframes Fast__Left {
@@ -220,7 +220,7 @@ header .navbar-default div .fa-bars {
   background-color: var(--White);
   display: block;
   position: absolute;
-  animation: 5s Fast__Left__H1-After ease-in-out;
+  animation: 2s Fast__Left__H1-After ease-in-out;
 }
 
 @keyframes Fast__Left__H1-After {
@@ -581,9 +581,54 @@ ul {
 }
 
 /* ---- RESPONSIVE DESIGN ---- */
+@media only screen and (max-width: 1227px) {
+  .ECV__Form-SVG__Top {
+    top: 172rem;
+  }
+}
+
+@media only screen and (max-width: 1219px) {
+  .ECV__Form-SVG__Top {
+    top: 171.19rem;
+  }
+}
+
+@media only screen and (max-width: 1201px) {
+  .ECV__Form-SVG__Top {
+    top: 171rem;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .EVC__Our-Team h2 {
     top: 65rem;
+  }
+}
+
+@media only screen and (max-width: 1197px) {
+  .ECV__Form-SVG__Top {
+    top: 170.2rem;
+  }
+}
+
+@media only screen and (max-width: 1178px) {
+  .ECV__Form-SVG__Top {
+    top: 169.4rem;
+  }
+}
+
+@media only screen and (max-width: 1162px) {
+  .ECV__Form-SVG__Top {
+    top: 168.69rem;
+  }
+}
+
+@media only screen and (max-width: 1106px) {
+}
+
+@media only screen and (max-width: 1095px) {
+  .ECV__Form-SVG__Top {
+    top: 166rem;
   }
 }
 
@@ -602,13 +647,13 @@ ul {
 
 @media only screen and (max-width: 1187px) {
   .EVC__Card-OuterHolder {
-    width: 240px;
+    width: 260px;
   }
 }
 
 @media only screen and (min-width: 1187px) {
   .EVC__Card-OuterHolder {
-    width: 240px;
+    width: 260px;
   }
 }
 
@@ -644,12 +689,48 @@ ul {
     width: 90%;
     margin-left: 5%;
   }
+
+  .EVC__Future {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 1097px) {
+  .EVC__Our-Team h2 {
+    top: 62rem;
+  }
+}
+
+@media only screen and (max-width: 998px) {
+  .EVC__Our-Team h2 {
+    top: 59.2rem;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .EVC__Our-Team h2 {
+    top: 56.8rem;
+  }
 }
 
 @media only screen and (max-width: 943px) {
   .EVC__Flex {
     width: 90%;
     flex-direction: column;
+  }
+
+  .EVC__Future {
+    flex-direction: column;
+  }
+
+  .EVC__Future-Left {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .EVC__Future-Right {
+    width: 100%;
   }
 
   .EVC__Flex-Right {
@@ -685,6 +766,30 @@ ul {
   }
 }
 
+@media only screen and (max-width: 872px) {
+  .EVC__Our-Team h2 {
+    top: 54.2rem;
+  }
+}
+
+@media only screen and (max-width: 816px) {
+  .EVC__Our-Team h2 {
+    top: 51.9rem;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .EVC__Our-Team h2 {
+    top: 49.8rem;
+  }
+}
+
+@media only screen and (max-width: 693px) {
+  .EVC__Our-Team h2 {
+    top: 48rem;
+  }
+}
+
 @media only screen and (max-width: 674px) {
   .Header__SVG {
     width: 130vw;
@@ -694,5 +799,29 @@ ul {
 @media only screen and (max-width: 510px) {
   .Header__SVG {
     width: 200vw;
+  }
+}
+
+@media only screen and (max-width: 692px) {
+  .EVC__Form-Container__Right {
+    display: none;
+  }
+
+  .EVC__Form-Container__Left {
+    width: 90%;
+    margin-left: 0%;
+  }
+}
+
+/* -- FOOTER -- */
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
   }
 }
