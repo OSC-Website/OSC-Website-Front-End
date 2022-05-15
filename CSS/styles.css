@@ -298,8 +298,8 @@ header .navbar-default div .fa-bars {
 .EVC__Our-Team h2 {
   position: absolute;
   top: 70rem;
-  width: 50%;
-  left: 25%;
+  width: 90%;
+  left: 5%;
   color: var(--White);
   font-size: 3rem;
   z-index: 2;
@@ -1023,6 +1023,127 @@ ul {
 @media only screen and (max-width: 693px) {
   .EVC__Our-Team h2 {
     top: 48rem;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .EVC__Our-Team h2 {
+    top: 53.55rem;
+  }
+}
+
+@media only screen and (max-width: 669px) {
+  .EVC__Our-Team h2 {
+    top: 55rem;
+  }
+}
+
+@media only screen and (max-width: 646px) {
+  .EVC__Our-Team h2 {
+    top: 53.7rem;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .EVC__Our-Team h2 {
+    top: 52.2rem;
+  }
+}
+
+@media only screen and (max-width: 593px) {
+  .EVC__Our-Team h2 {
+    top: 50.7rem;
+  }
+}
+
+@media only screen and (max-width: 566px) {
+  .EVC__Our-Team h2 {
+    top: 49.5rem;
+  }
+}
+
+@media only screen and (max-width: 555px) {
+  .EVC__Our-Team h2 {
+    top: 50.3rem;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .EVC__Our-Team h2 {
+    top: 48.9rem;
+  }
+}
+
+@media only screen and (max-width: 511px) {
+  .EVC__Our-Team h2 {
+    top: 59.2rem;
+  }
+}
+
+@media only screen and (max-width: 497px) {
+  .EVC__Our-Team h2 {
+    top: 58.1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .EVC__Our-Team h2 {
+    top: 57rem;
+  }
+}
+
+@media only screen and (max-width: 466px) {
+  .EVC__Our-Team h2 {
+    top: 56rem;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .EVC__Our-Team h2 {
+    top: 57rem;
+  }
+}
+
+@media only screen and (max-width: 448px) {
+  .EVC__Our-Team h2 {
+    top: 56.3rem;
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .EVC__Our-Team h2 {
+    top: 56.6rem;
+  }
+}
+
+@media only screen and (max-width: 419px) {
+  .EVC__Our-Team h2 {
+    top: 60.2rem;
+  }
+}
+
+@media only screen and (max-width: 405px) {
+  .EVC__Our-Team h2 {
+    top: 59.2rem;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  .EVC__Our-Team h2 {
+    top: 60.1rem;
+  }
+}
+
+@media only screen and (max-width: 383px) {
+  .EVC__Our-Team h2 {
+    top: 59rem;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .EVC__Our-Team h2 {
+    top: 58.2rem;
   }
 }
 
