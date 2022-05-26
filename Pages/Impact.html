@@ -12,6 +12,7 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
   </head>
 
   <body>
@@ -69,6 +70,74 @@
 
     <!-- MAIN -->
     <main>
+      <!-- PEST MANAGEMENT -->
+      <div class="EVC__Pest">
+        <div class="EVC__Pest-Top">
+          <h2>Pest Management</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            harum eaque et dolore? Architecto similique molestiae mollitia
+            suscipit odio quisquam.
+          </p>
+        </div>
+
+        <div class="EVC__Pest-Bottem">
+          <canvas id="LineGraph"></canvas>
+          <canvas id="BarGraph"></canvas>
+        </div>
+
+        <script type="text/javascript">
+          var xValues = [
+            "27th May 2022",
+            "27th may 2022",
+            "27th may 2022",
+            "27th may 2022",
+            "27th may 2022",
+            "27th may 2022",
+            "27th may 2022",
+            "27th may 2022",
+            "27th may 2022",
+            "27th may 2022",
+            "27th may 2022",
+          ];
+          var yValues = [
+            1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+          ];
+
+          new Chart("LineGraph", {
+            type: "line",
+            data: {
+              labels: xValues,
+              datasets: [
+                {
+                  fill: false,
+                  lineTension: 0,
+                  backgroundColor: "#2e8b57",
+                  borderColor: "#7adfbb",
+                  data: yValues,
+                },
+              ],
+            },
+            options: {
+              legend: { display: true, text: "hellp" },
+              scales: {
+                yAxes: [{ ticks: { min: 1, max: 20 } }],
+              },
+              plugins: {
+                legend: {
+                  display: true,
+                  labels: {
+                    color: "rgb(255, 99, 132)",
+                    title: { text: "" },
+                  },
+                },
+              },
+            },
+          });
+        </script>
+        <script type="text/javascript"></script>
+      </div>
+
       <!-- RIVER HEALTH -->
       <div class="EVC__Rivers">
         <!-- LEFT -->
@@ -83,11 +152,15 @@
 
         <!-- RIGHT -->
         <div class="EVC__River-Right">
-          <img src="../Images/Impact/River.jpg" alt="Picture of River" />
+          <img
+            title="Picture of Rivers"
+            src="../Images/Impact/River.jpg"
+            alt="Picture of River"
+          />
         </div>
       </div>
 
-      <!-- GARDENING -->
+      <!-- GARDENING
       <div class="EVC__Gardening">
         <h2>Green Fingers Gardening</h2>
         <p>
@@ -96,7 +169,7 @@
           ab.
         </p>
         <img src="" alt="" />
-      </div>
+      </div> -->
 
       <!-- SCRIPTS  -->
       <script src="../JS/navbar_change.js"></script>
